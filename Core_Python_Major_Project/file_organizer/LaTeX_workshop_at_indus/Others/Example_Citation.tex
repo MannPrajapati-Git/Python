@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{apacite}
+\usepackage{cite}
+\usepackage{hyperref}
+
+\title{Sample Report with Bibliography}
+\author{Ankur Changela}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Citations are important in academic writing. For instance, Einstein’s work on quantum physics is highly cited \cite{p1}.
+
+\section{Related Work}
+Multiple studies \cite{p2, p3} have contributed to the field of computing.
+
+\bibliographystyle{apacite}  % Style: plain, abbrv, unsrt, alpha, IEEEtran, etc.
+\bibliography{export}  % Name of the .bib file (without .bib extension)
+
+\end{document}

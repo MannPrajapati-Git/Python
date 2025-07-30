@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\begin{align}
+a &= b \quad \text{(normal spacing)} \\
+a &=\!b \quad \text{(negative thin space)} \\
+a &=\,b \quad \text{(thin space)} \\
+a &=\;b \quad \text{(thick space)} \\
+a &= b \\[10pt]  % adds vertical space between equations
+c &= d
+\end{align}
+\begin{align*}
+f(x) &= x^2\! +3x\! +2 \\
+f(x) &= x^2+3x+2 \\
+f(x) &= x^2\, +3x\, +2 \\
+f(x) &= x^2\: +3x\: +2 \\
+f(x) &= x^2\; +3x\; +2 \\
+f(x) &= x^2\ +3x\ +2 \\
+f(x) &= x^2\quad +3x\quad +2 \\
+f(x) &= x^2\qquad +3x\qquad +2
+\end{align*}
+\end{document}

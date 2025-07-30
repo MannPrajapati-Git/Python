@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{enumitem} %enumitem – for customizing label styles and spacing%
+\begin{document}
+
+\section*{Unordered List Example}
+\begin{itemize}
+  \item Apple
+  \item Banana
+  \item Mango
+\end{itemize}
+
+\section*{Ordered List Example}
+\begin{enumerate}
+  \item Step One
+  \item Step Two
+  \item Step Three
+\end{enumerate}
+
+\section*{Description List Example}
+\begin{description}
+  \item[Apple] A red or green fruit.
+  \item[Banana] A yellow fruit.
+  \item[Mango] A tropical stone fruit.
+\end{description}
+
+\begin{enumerate}
+  \item Fruits:
+    \begin{itemize}
+      \item Apple
+      \item Mango
+    \end{itemize}
+  \item Vegetables:
+    \begin{itemize}
+      \item Carrot
+      \item Spinach
+    \end{itemize}
+\end{enumerate}
+\begin{itemize}[label=**]
+\item Custom bullet
+\end{itemize}
+\end{document}

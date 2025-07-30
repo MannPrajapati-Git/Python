@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+
+\title{Common Arrows in LaTeX}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Basic Arrows}
+
+\[
+\begin{array}{ll}
+\rightarrow & \texttt{\textbackslash{}rightarrow} \\
+\leftarrow & \texttt{\textbackslash{}leftarrow} \\
+\leftrightarrow & \texttt{\textbackslash{}leftrightarrow} \\
+\Rightarrow & \texttt{\textbackslash{}Rightarrow} \\
+\Leftarrow & \texttt{\textbackslash{}Leftarrow} \\
+\Leftrightarrow & \texttt{\textbackslash{}Leftrightarrow} \\
+\mapsto & \texttt{\textbackslash{}mapsto}
+\end{array}
+\]
+
+\section*{2. Long Arrows}
+
+\[
+\begin{array}{ll}
+\longrightarrow & \texttt{\textbackslash{}longrightarrow} \\
+\longleftarrow & \texttt{\textbackslash{}longleftarrow} \\
+\longleftrightarrow & \texttt{\textbackslash{}longleftrightarrow} \\
+\Longrightarrow & \texttt{\textbackslash{}Longrightarrow} \\
+\Longleftarrow & \texttt{\textbackslash{}Longleftarrow} \\
+\Longleftrightarrow & \texttt{\textbackslash{}Longleftrightarrow}
+\end{array}
+\]
+
+\section*{3. Arrows with Labels (from \texttt{amsmath})}
+
+\[
+A \xrightarrow{\text{label}} B \quad
+X \xleftarrow{\text{reverse}} Y
+\]
+
+\texttt{\textbackslash{}xrightarrow\{\text\{label\}\}}, 
+\texttt{\textbackslash{}xleftarrow\{\text\{label\}\}}
+
+\section*{4. Vector Arrow}
+
+\[
+\vec{v} = \text{Vector v} \qquad \texttt{\textbackslash{}vec\{v\}}
+\]
+
+\section*{5. Special Directional Arrows}
+
+\[
+\begin{array}{ll}
+\uparrow & \texttt{\textbackslash{}uparrow} \\
+\downarrow & \texttt{\textbackslash{}downarrow} \\
+\nearrow & \texttt{\textbackslash{}nearrow} \\
+\searrow & \texttt{\textbackslash{}searrow} \\
+\nwarrow & \texttt{\textbackslash{}nwarrow} \\
+\swarrow & \texttt{\textbackslash{}swarrow}
+\end{array}
+\]
+
+\end{document}

@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage{caption}  % Optional, for better captions
+\usepackage{multirow}
+\begin{document}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}
+\textbf{Name} & \textbf{Age} & \textbf{City} \\
+Alice & 25 & New York \\
+Bob   & 30 & London \\
+Carol & 28 & Tokyo \\
+
+\end{tabular}
+\caption{Basic Information Table}
+\label{tab:1}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Name} & \textbf{Age} & \textbf{City} \\
+\hline
+Alice & 25 & New York \\ \hline
+Bob   & 30 & London \\
+Carol & 28 & Tokyo \\
+\hline
+\end{tabular}
+\caption{Basic Information Table}
+\label{tab:basicinfo}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|r|}
+\hline
+\textbf{Name} & \textbf{Age} & \textbf{City} \\
+\hline
+Alice & 25 & New York \\ \hline
+Bob   & 30 & London \\
+Carol & 28 & Tokyo \\
+\hline
+\end{tabular}
+\caption{Basic Information Table}
+\label{tab:3}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{Name}} & \multicolumn{2}{c|}{\textbf{Scores}} \\
+\cline{2-3}
+ & Math & Science \\
+\hline
+Alice & 90 & 95 \\
+Bob   & 85 & 80 \\
+\hline
+\end{tabular}
+\caption{Scores by Subject}
+\end{table}
+
+\end{document}

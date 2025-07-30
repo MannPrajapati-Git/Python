@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\begin{document}
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\linewidth]{IU_logo.png}
+    \caption{IU Image}
+    \label{fig1a}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\linewidth]{pdpu_logo.png}
+    \caption{PDEU logo}
+    \label{fig1b}
+  \end{subfigure}
+  \caption{Two side-by-side images}
+  \label{fig:1}
+\end{figure}
+Figures \ref{fig1a} and \ref{fig1b} show the logo of IU and PDEU respectively.
+\end{document}

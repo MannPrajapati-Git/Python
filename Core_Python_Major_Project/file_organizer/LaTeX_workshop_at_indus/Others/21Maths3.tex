@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+\title{Brackets and Parentheses in Mathematical LaTeX}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Regular Fixed-Size Brackets (No Auto Scaling)}
+
+\[
+(\frac{a}{b} ), \quad [ \frac{a}{b} ], \quad \{ a + b \}, \quad |x|, \quad \langle x \rangle
+\]
+
+\section*{2. Automatically Sized Brackets using \texttt{\textbackslash left} and \texttt{\textbackslash right}}
+
+\[
+\left( \frac{a}{b} \right), \quad
+\left[ \sum_{i=1}^{n} i^2 \right], \quad
+\left\{ x \in \mathbb{R} \mid x > 0 \right\}, \quad
+\left| \frac{x+y}{z} \right|, \quad
+\left\langle a, b \right\rangle
+\]
+
+\section*{3. Empty Bracket One Side (Using Dot \texttt{.})}
+
+\[
+\left. \frac{dy}{dx} \right|_{x = 1}
+\]
+
+\section*{4. Brackets in Set Notation}
+
+\[
+\left\{ x \in \mathbb{N} \mid x^2 < 100 \right\}
+\]
+
+\section*{5. Brackets in Piecewise Functions}
+
+\[
+f(x) =
+\begin{cases}
+x^2 & \text{if } x \ge 0 \\
+-x  & \text{if } x < 0
+\end{cases}
+\]
+
+\end{document}

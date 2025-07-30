@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+\title{Math Mode Examples in LaTeX}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Basic Expressions}
+
+\[
+a^2 \qquad x_1 \qquad x_i^2
+\]
+
+\section*{2. Fractions and Roots}
+
+\[
+\frac{a}{b} \qquad \sqrt{x} \qquad \sqrt[n]{x}
+\]
+
+\section*{3. Summation and Product}
+
+\[
+\sum_{i=1}^{n} i \qquad \prod_{i=1}^{n} x_i
+\]
+
+\section*{4. Calculus: Integrals, Derivatives, Limits}
+
+\[
+\int_{a}^{b} x^2 \, dx \qquad \frac{dy}{dx} \qquad \frac{\partial f}{\partial x}
+\]
+\[
+\lim_{x \to 0} \frac{\sin x}{x}
+\]
+
+\section*{5. Vectors and Operators}
+
+\[
+\vec{v} \qquad \vec{a} \cdot \vec{b} \qquad \vec{a} \times \vec{b}
+\]
+
+\section*{6. Matrices}
+
+\[
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+\]
+
+\section*{7. Piecewise Functions}
+
+\[
+f(x) = 
+\begin{cases}
+x^2 & \text{if } x \ge 0 \\
+-x  & \text{if } x < 0
+\end{cases}
+\]
+
+\section*{8. Text in Math Mode}
+
+\[
+x > 0 \text{ if and only if } x^2 > 0
+\]
+
+\end{document}
